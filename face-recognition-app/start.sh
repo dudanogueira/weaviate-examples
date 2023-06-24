@@ -31,8 +31,8 @@ function run_frontend() {
   cd ./frontend && cmd_node yarn && cmd_node yarn start
 }
 
-run_python=false
-run_curl=true
+run_python=true
+run_curl=false
 
 while [[ "$#" -gt 0 ]]; do
   case $1 in
